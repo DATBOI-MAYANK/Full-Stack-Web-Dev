@@ -1,0 +1,93 @@
+
+
+body{
+    background-color: black;
+}
+nav ol{
+    display: flex;
+    padding-top: 15px;
+    
+    
+}
+
+header nav ol {
+    list-style: none;
+
+}
+
+ol li{
+    padding-left: 65px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+ .image img{
+    width: 425px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+   
+}
+ .offer {
+    display: flex;
+    justify-content: center;
+    height: 46px;
+    
+}
+
+.day , .date{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 387px;
+}
+.text h1{
+    padding-left: 44px;
+    margin: 0;
+    font-size: 54px;
+    color: white;
+}
+.text h4{
+    padding-left: 85px;
+    margin: 0;
+    font-size: 50px;
+    color: rgb(223, 84, 107);
+}
+
+.Time{
+    margin: 0; 
+    padding-top: 58px; 
+    padding-left: 114px;
+    padding-bottom: 8px;
+    color: white;
+}
+
+.day p{
+    margin: 0;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+}
+.date p{
+    margin: 0;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+button{
+    padding: 5px;
+    border: none;
+    background-color: rgb(223, 84, 107);
+    color: white;
+    border-radius: 2px;
+}
