@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Poppins&display=swap');
+
+*{
+    font-family: 'poppins',sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(Image2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+h1{
+    padding-left: 133px;
+}
+h2{
+    padding-left: 46px;
+}
+h4{
+    padding-left: 165px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.head {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 43px;
+    
+    
+}
+
+.type {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info {
+    padding: 5px;
+}
+.travel{
+    padding-left: 46px;
+}
+.type div {
+    padding: 9px;
+}
+
+.btn{
+    padding-left: 134px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 146px;
+}
+form{
+    background: url(Image.png.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    width: 500px;
+}
+
+.btn button{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.info input{
+    background-color:transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 10px rgba(0,0,0,10);
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 5px;
+
+}
+.info input::placeholder{
+    color: #080674;
+    font-weight: 900;
+}
+.type input{
+    accent-color: #fff;
+    
+}
+.type input:hover{
+    cursor: pointer;
+}
