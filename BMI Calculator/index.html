@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+        body{
+            background-color: gray;
+            font-family: 'roboto',sans-serif;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            background-color: wheat;
+            padding: 25px;
+            margin-top: 65px;
+            border-radius: 20px;
+        }
+        button{
+            margin-left: 90px;
+            border: none;
+            background-color: white;
+            border-radius: 20px;
+            padding: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            font-size: 15px;
+            font-weight: bolder;
+        }
+        #results{
+           margin-left: 30px; 
+           margin-top: 10px;
+           font-size: 20px;
+           
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h1><b>BMI Calculator</b></h1>
+            <p><label>Height in CM</label><input type="text" id="height"></p>
+            <p><label>Weight in KG</label><input type="number" id="weight"></p>
+            <button>Calculate</button>
+            <div id="results"></div>
+            <div class="weightguide">
+                <h4>BMI Weight Guide</h4>
+                <p>Under weight = less than 18.6</p>
+                <p>Normal Range = 18.6 and 24.6 </p>
+                <p>Overweight = Greater than 24.6</p>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
