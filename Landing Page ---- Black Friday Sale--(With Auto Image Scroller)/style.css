@@ -4,6 +4,7 @@
    
 body{
     background-color: black;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -123,7 +124,8 @@ button{
 }
 @keyframes slide_animation {
     0%{right:0px}
-    10%{right:0px}
+    5%{right:425px}
+    10%{right:425px}
     20%{right: 425px}
     30%{right:425px}
     40%{right:850px}
@@ -133,9 +135,4 @@ button{
     80%{right:0px}
     90%{right:0px}
     100%{right:0px}
-}
-.image{
-    width: 425px;
-    position: relative;
-
 }
