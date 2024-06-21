@@ -1,26 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+   
 body{
     background-color: black;
+nav{
+    display: flex;
+    justify-content: space-around;
 }
 nav ol{
     display: flex;
-    padding-top: 15px;
-    
-    
 }
+ol li:hover{
+  cursor: pointer;
 
+}
 header nav ol {
     list-style: none;
 
+}
+.shop{
+    margin-top: 10px;
 }
 
 ol li{
     padding-left: 65px;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Dosis", sans serif;
+    font-weight: 900;
 }
-
+.logo img{
+    width: 4rem;
+}
 
  .image img{
     width: 425px;
@@ -55,14 +66,17 @@ ol li{
 .text h1{
     padding-left: 44px;
     margin: 0;
+    font-family:"Dosis", sans-serif;
     font-size: 54px;
     color: white;
+  
 }
 .text h4{
     padding-left: 85px;
     margin: 0;
     font-size: 50px;
     color: rgb(223, 84, 107);
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .Time{
